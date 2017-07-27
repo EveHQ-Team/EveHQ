@@ -199,5 +199,3 @@ AssemblyInfo.template.cs
 # .dat binary files
 EveHQ.EveData/StaticData/*.dat
 EveHQ.EveData/StaticData/*.bin
-EveHQ.Data/StaticData/*.dat
-EveHQ.Data/StaticData/*.bin
