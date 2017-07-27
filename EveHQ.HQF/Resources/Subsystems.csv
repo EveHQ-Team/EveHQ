@@ -42,14 +42,14 @@
 45601,1,30549,117,2,653;654;655;772;385;384;394;395,0,1,0,5,15,"Kinetic HAM, Light & Heavy Missile Damage"
 45601,1,30549,51,2,511;510;771,0,1,0,-7.5,15,"Rapid Light, Heavy & HAM Launcher ROF"
 45601,1,30549,37,2,385;655;772;654;395,0,1,0,10,15,Heavy & HAM Velocity
-45601,0,0,50,2,511;510;711,0,0,0,25,15,"Rapid Light Missile, Heavy Missile & HAM Launcher CPU reduction"
-45601,0,0,30,2,511;510;711,0,0,0,25,15,"Rapid Light Missile, Heavy Missile & HAM Launcher PWG reduction"
+45601,0,0,50,2,511;510;711,0,0,0,-25,15,"Rapid Light Missile, Heavy Missile & HAM Launcher CPU reduction"
+45601,0,0,30,2,511;510;711,0,0,0,-25,15,"Rapid Light Missile, Heavy Missile & HAM Launcher PWG reduction"
 
 # Tengu Offensive - Magnetic Infusion Basin,,,,,,,,,,,
 45602,1,30549,10015,4,562;565,0,1,0,5,15,Medium Hybrid Turret Damage
 45602,1,30549,54,4,562;565,0,1,0,20,15,Medium Hybrid Turret Range
-45602,0,0,50,4,562;565,0,0,0,25,15,Medium Hybrid CPU reduction
-45602,0,0,30,4,562;565,0,0,0,25,15,Medium Hybrid PWG reduction
+45602,0,0,50,4,562;565,0,0,0,-25,15,Medium Hybrid CPU reduction
+45602,0,0,30,4,562;565,0,0,0,-25,15,Medium Hybrid PWG reduction
 
 # Tengu Offensive - Support Processor,,,,,,,,,,,
 45603,1,30549,2535,1,42529;43555,0,1,0,2,15,Shield Command Burst Duration
@@ -132,8 +132,8 @@
 45598,1,30537,6,4,568;572,0,1,0,-10,15,Medium Energy Turret Cap Use
 45598,1,30537,10014,4,568;572,0,1,0,10,15,Medium Energy Turret Damage
 45598,1,30537,54,4,568;572,0,1,0,10,15,Medium Energy Turret Optimal Range
-45598,0,0,50,4,568;572,0,0,0,25,15,Medium Energy Turret CPU reduction
-45598,0,0,30,4,568;572,0,0,0,25,15,Medium Energy Turret PWG reduction
+45598,0,0,50,4,568;572,0,0,0,-25,15,Medium Energy Turret CPU reduction
+45598,0,0,30,4,568;572,0,0,0,-25,15,Medium Energy Turret PWG reduction
 
 # Legion Offensive - Assault Optimization,,,,,,,,,,,
 45599,1,30537,114,2,653;654;655;772;385;384;394;395,0,1,0,5,15,"EM HAM, Light & Heavy Missile Damage"
@@ -145,8 +145,8 @@
 45599,1,30537,265,3,18,0,1,0,10,15,Drone Armor HP
 45599,1,30537,9,3,18,0,1,0,10,15,Drone Hull HP
 45599,1,30537,64,3,18,0,1,0,10,15,Drone Damage
-45599,0,0,50,2,511;510;711,0,0,0,25,15,"Rapid Light Missile, Heavy Missile & HAM Launcher CPU reduction"
-45599,0,0,30,2,511;510;711,0,0,0,25,15,"Rapid Light Missile, Heavy Missile & HAM Launcher PWG reduction"
+45599,0,0,50,2,511;510;711,0,0,0,-25,15,"Rapid Light Missile, Heavy Missile & HAM Launcher CPU reduction"
+45599,0,0,30,2,511;510;711,0,0,0,-25,15,"Rapid Light Missile, Heavy Missile & HAM Launcher PWG reduction"
 
 # Legion Offensive - Support Processor,,,,,,,,,,,
 45600,1,30537,2535,1,42526;43552,0,1,0,2,15,Armored Command Burst Duration
@@ -231,15 +231,15 @@
 45607,1,30551,54,4,575;578,0,1,0,10,15,Medium Projectile Optimal Range
 45607,1,30551,158,4,575;578,0,1,0,10,15,Medium Projectile Falloff Range
 45607,1,30551,160,4,575;578,0,1,0,7.5,15,Medium Projectile Turret Tracking
-45607,0,0,50,4,575;578,0,0,0,25,15,Medium Projectile Turret CPU reduction
-45607,0,0,30,4,575;578,0,0,0,25,15,Medium Projectile Turret PWG reduction
+45607,0,0,50,4,575;578,0,0,0,-25,15,Medium Projectile Turret CPU reduction
+45607,0,0,30,4,575;578,0,0,0,-25,15,Medium Projectile Turret PWG reduction
 
 # Loki Offensive - Launcher Efficiency Configuration,,,,,,,,,,,
 45608,1,30551,51,2,511;510;771,0,1,0,-10,15,"Rapid Light, Heavy & HAM Launcher ROF"
 45608,1,30551,37,2,385;655;772;654;395,0,1,0,5,15,Heavy & HAM Velocity
 45608,1,30551,653,2,654;656;655;653;648;657;772;386;385;384;387;89;476;1677;1019;1678;88;1158;394;395;396,0,1,0,5,15,Missile Explosion Velocity
-45608,0,0,50,2,511;510;711,0,0,0,25,15,"Rapid Light Missile, Heavy Missile & HAM Launcher CPU reduction"
-45608,0,0,30,2,511;510;711,0,0,0,25,15,"Rapid Light Missile, Heavy Missile & HAM Launcher PWG reduction"
+45608,0,0,50,2,511;510;711,0,0,0,-25,15,"Rapid Light Missile, Heavy Missile & HAM Launcher CPU reduction"
+45608,0,0,30,2,511;510;711,0,0,0,-25,15,"Rapid Light Missile, Heavy Missile & HAM Launcher PWG reduction"
 
 # Loki Offensive - Support Processor,,,,,,,,,,,
 45609,1,30551,2535,1,42529;43555,0,1,0,2,15,Shield Command Burst Duration
@@ -327,8 +327,8 @@
 45604,1,30550,10015,4,562;565,0,1,0,10,15,Medium Hybrid Turret Damage
 45604,1,30550,158,4,562;565,0,1,0,10,15,Medium Hybrid Falloff Range
 45604,1,30550,160,4,562;565,0,1,0,7.5,15,Medium Hybrid Turret Tracking
-45604,0,0,50,4,562;565,0,0,0,25,15,Medium Hybrid CPU reduction
-45604,0,0,30,4,562;565,0,0,0,25,15,Medium Hybrid PWG reduction
+45604,0,0,50,4,562;565,0,0,0,-25,15,Medium Hybrid CPU reduction
+45604,0,0,30,4,562;565,0,0,0,-25,15,Medium Hybrid PWG reduction
 
 # Proteus Offensive - Drone Synthesis Projector,,,,,,,,,,,
 45605,1,30550,160,4,562;565,0,1,0,10,15,Medium Hybrid Turret Tracking
@@ -336,8 +336,8 @@
 45605,1,30550,265,3,18,0,1,0,10,15,Drone Armor HP
 45605,1,30550,9,3,18,0,1,0,10,15,Drone Hull HP
 45605,1,30550,37,3,18,0,1,0,5,15,Drone MWD Speed
-45605,0,0,50,4,562;565,0,0,0,25,15,Medium Hybrid CPU reduction
-45605,0,0,30,4,562;565,0,0,0,25,15,Medium Hybrid PWG reduction
+45605,0,0,50,4,562;565,0,0,0,-25,15,Medium Hybrid CPU reduction
+45605,0,0,30,4,562;565,0,0,0,-25,15,Medium Hybrid PWG reduction
 
 # Proteus Offensive - Support Processor,,,,,,,,,,,
 45606,1,30550,2535,1,42526;43552,0,1,0,2,15,Armored Command Burst Duration
