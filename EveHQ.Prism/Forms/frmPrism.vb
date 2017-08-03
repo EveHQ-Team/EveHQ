@@ -4499,8 +4499,9 @@ Namespace Forms
             Call UpdateBpList()
         End Sub
 
-        Private Sub btnResetBPSearch_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnResetBPSearch.Click
-            txtBPSearch.Text = ""
+        Private Sub btnResetBPSearch_Click(sender As Object, e As EventArgs) Handles btnResetBPSearch.Click
+            txtBPSearch.Clear()
+			txtBPSearch.Focus()
         End Sub
 
         Private Sub btnAddCustomBP_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnAddCustomBP.Click

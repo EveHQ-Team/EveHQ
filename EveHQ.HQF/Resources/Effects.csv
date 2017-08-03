@@ -1892,7 +1892,7 @@
 283,3,32,283,3,6,0,0,1,15,Drone Capacity
 479,3,32,479,3,6,0,0,1,15,Shield Recharge
 482,3,32,482,3,6,0,0,1,15,Capacitor Capacity
-552,3,32,552,3,6,0,0,4,15,Signature Radius
+552,3,32,552,3,6,0,0,1,15,Signature Radius
 564,3,32,564,3,6,0,0,1,15,Scan Resolution
 1159,3,32,265,3,6,0,0,1,15,Armor HP Bonus
 1271,3,32,1271,3,6,0,0,1,15,Drone Bandwidth

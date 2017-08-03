@@ -106,7 +106,7 @@
 45624,1,30539,90,2,68;71,0,1,0,10,15,Nos & Neut Drain Amount
 45624,1,30539,1229,7,90,0,1,0,10,15,Nos & Neut Drain Overheat Amount Bonus
 45624,1,30539,1211,7,1211,0,1,0,-5,15,Reduction in module damage from overheating
-45624,0,0,30,2,68;71,0,0,0,-50,15,Remote Shield Booster PWG reduction
+45624,0,0,30,2,41,0,0,0,-50,15,Remote Shield Booster PWG reduction
 
 # Legion Defensive Subsystems
 # Legion Defensive - Covert Reconfiguration,,,,,,,,,,,
