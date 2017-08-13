@@ -136,6 +136,14 @@
     <Compile Include="BPCalc\OwnedBlueprint.vb" />
     <Compile Include="BPCalc\SwapResource.vb" />
     <Compile Include="Classes\BlueprintAsset.vb" />
+    <Compile Include="Classes\StructureBonus.vb" />
+    <Compile Include="Classes\StructurePreference.vb" />
+    <Compile Include="Forms\frmStructurePreference.Designer.vb">
+      <DependentUpon>frmStructurePreference.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmStructurePreference.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="_Deprecated\BPCCostInfo.vb" />
     <Compile Include="Classes\BlueprintCopyCostInfo.vb" />
@@ -372,6 +380,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\frmSelectQuantity.resx">
       <DependentUpon>frmSelectQuantity.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmStructurePreference.resx">
+      <DependentUpon>frmStructurePreference.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

@@ -1765,6 +1765,15 @@ Namespace Forms
             End If
 
         End Sub
+
+        '
+        ' DEBUG !!!!
+        '
+        Private Sub btnEditStructPreference_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnEditStructPreference.Click
+            Dim formStrucPref As frmStructurePreference = New frmStructurePreference()
+            formStrucPref.Show()
+            'MessageBox.Show("test")
+        End Sub
     End Class
 
     Public Enum BPCalcStartMode
