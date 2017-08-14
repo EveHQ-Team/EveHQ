@@ -2367,6 +2367,20 @@ Namespace Forms
             Me.btnSaveProductionJobAs.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
             Me.btnSaveProductionJobAs.TabIndex = 185
             Me.btnSaveProductionJobAs.Text = "Save Job As..."
+
+            '
+            ' DEBUG !
+            '
+            Me.btnEditStructurePreference = New DevComponents.DotNetBar.ButtonX()
+            Me.btnEditStructurePreference.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton
+            Me.btnEditStructurePreference.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground
+            Me.btnEditStructurePreference.Location = New System.Drawing.Point(759, 150)
+            Me.btnEditStructurePreference.Name = "btnDebug"
+            Me.btnEditStructurePreference.Size = New System.Drawing.Size(56, 56)
+            Me.btnEditStructurePreference.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
+            Me.btnEditStructurePreference.Text = "DEBUG"
+            Me.PanelEx1.Controls.Add(Me.btnEditStructurePreference)
+
             '
             'nudMELevel
             '
@@ -2720,6 +2734,11 @@ Namespace Forms
         Friend WithEvents SaveJobDialogCheckBox As DevComponents.DotNetBar.Command
         Friend WithEvents stnMeBonus As DevComponents.Editors.IntegerInput
         Friend WithEvents Label1 As System.Windows.Forms.Label
+
+        '
+        ' DEBUG !!!!
+        '
+        Friend WithEvents btnEditStructurePreference As DevComponents.DotNetBar.ButtonX
 
     End Class
 End NameSpace
