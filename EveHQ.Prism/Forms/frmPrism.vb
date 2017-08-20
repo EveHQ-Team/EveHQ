@@ -4038,7 +4038,7 @@ Namespace Forms
                         If blueprint.LocationID Is Nothing Then blueprint.LocationID = "0" ' Resets details
                         If StaticData.Blueprints.ContainsKey(CInt(blueprint.TypeID)) Then
                             bpData = StaticData.Blueprints(CInt(blueprint.TypeID))
-                            locationName = Locations.GetLocationNameFromID(CLng(blueprint.LocationID))
+                            locationName = Locations.GetLocationFromID(CLng(blueprint.LocationID)).ContainerName
                             If locationName <> "" AndAlso _bpLocations.Contains(locationName) = False Then
                                 _bpLocations.Add(locationName)
                             End If
@@ -4481,7 +4481,7 @@ Namespace Forms
                     Dim locationName As String
                     For Each selitem As Node In adtBlueprints.SelectedNodes
                         bpAsset = PlugInData.BlueprintAssets(bpForm.OwnerName).Item(CLng(selitem.Tag))
-                        locationName = Locations.GetLocationNameFromID(CLng(bpAsset.LocationID))
+                        locationName = Locations.GetLocationFromID(CLng(bpAsset.LocationID)).ContainerName
                         Call UpdateOwnerBpItem(bpForm.OwnerName, locationName, bpAsset, selitem)
                     Next
                 Else

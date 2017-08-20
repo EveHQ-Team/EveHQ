@@ -73,8 +73,9 @@ namespace EveHQ.NewEveApi
         private EveClient _eveClient;
 
         private ServerClient _serverClient;
+	    private StructureNameClient _structureName;
 
-        /// <summary>Initializes a new instance of the <see cref="EveAPI" /> class.</summary>
+	    /// <summary>Initializes a new instance of the <see cref="EveAPI" /> class.</summary>
         /// <param name="dataCacheFolder">The data cache folder.</param>
         /// <param name="requestProvider"></param>
         public EveAPI(string dataCacheFolder, IHttpRequestProvider requestProvider)
@@ -149,7 +150,9 @@ namespace EveHQ.NewEveApi
             }
         }
 
-        public void Dispose()
+	    public StructureNameClient StructureName => _structureName ?? (_structureName = new StructureNameClient(_cacheProvider, _requestProvider));
+
+	    public void Dispose()
         {
             if (_accountClient != null)
             {

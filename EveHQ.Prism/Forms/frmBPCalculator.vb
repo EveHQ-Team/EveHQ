@@ -456,6 +456,14 @@ Namespace Forms
             End If
 
             If _currentBP IsNot Nothing Then
+
+                ' Buffering the current target BP in case of Invention Jobs
+                Dim targetInventionBP As String = ""
+
+                If _currentJob.HasInventionJob Then
+                    targetInventionBP = StaticData.Types(_currentJob.InventionJob.ProductionJob.TypeID).Name
+                End If
+
                 If _currentBP.AssetId <= Integer.MaxValue AndAlso StaticData.Blueprints.ContainsKey(CInt(_currentBP.AssetId)) Then
                     ' This is a standard BP, not an owned one
                     Call DisplayAllBlueprints()
@@ -465,6 +473,16 @@ Namespace Forms
                     chkOwnedBPOs.Checked = True
                     cboBPs.SelectedItem = _ownedBP
                 End If
+
+                ' Update output BP in case of T2 invention job
+                If _currentJob.HasInventionJob Then
+                    cboInventions.SelectedItem = targetInventionBP
+                End If
+            End If
+
+            ' Restore factory ME bonus
+            If _currentJob.StnMeBonus > 0 Then
+                stnMeBonus.Value = _currentJob.StnMeBonus
             End If
 
             ' This is a risk, but the Runs property needs to be a long so we can support big runs of capitals.  
@@ -475,10 +493,13 @@ Namespace Forms
         End Sub
 
         Private Sub DisplayInventionDetails()
+	        If _currentJob.InventionJob Is Nothing Then
+		        _currentJob.InventionJob = New BPCalc.InventionJob
+			End If
 
-            If _currentJob.InventionJob Is Nothing Then
-                _currentJob.InventionJob = New BPCalc.InventionJob
-            End If
+			If Not _currentJob.HasInventionJob Then
+				Return
+			End If
 
             ' Set InventionBP
             cboInventions.SelectedItem = StaticData.Types(_currentJob.InventionJob.InventedBpid).Name

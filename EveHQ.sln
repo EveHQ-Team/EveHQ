@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EveHQ", "EveHQ\EveHQ.vbproj", "{366925AB-54F3-4D36-B05C-E98DBE8DA595}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -18,9 +18,6 @@ EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EveHQ.HQF", "EveHQ.HQF\EveHQ.HQF.vbproj", "{59CBD1C7-EB1B-4DC9-B063-A9889F6FAE41}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EveHQ.Prism", "EveHQ.Prism\EveHQ.Prism.vbproj", "{0BB966AE-268C-4C9B-AB50-C3F2D8201FDA}"
-	ProjectSection(ProjectDependencies) = postProject
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24} = {3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}
-	EndProjectSection
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EveHQ.KillMailViewer", "EveHQ.KillMailViewer\EveHQ.KillMailViewer.vbproj", "{8B03AD2B-8399-4702-8915-335E5AD5D667}"
 EndProject
@@ -52,8 +49,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D37267
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EveHQ.EveCrest", "EveHQ.EveCrest\EveHQ.EveCrest.csproj", "{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EveHQ.Esi", "EveHQ.Esi\EveHQ.Esi.csproj", "{CAA5BC94-0922-4F30-AC20-B28D0BB748C1}"
 EndProject
@@ -288,26 +283,6 @@ Global
 		{5998302B-2FD7-492E-87EB-0EC0618B2A6E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{5998302B-2FD7-492E-87EB-0EC0618B2A6E}.Release|Win32.ActiveCfg = Release|Any CPU
 		{5998302B-2FD7-492E-87EB-0EC0618B2A6E}.Release|x86.ActiveCfg = Release|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Debug|.NET.ActiveCfg = Debug|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Debug|.NET.Build.0 = Debug|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Debug|Win32.ActiveCfg = Debug|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Debug|Win32.Build.0 = Debug|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Debug|x86.Build.0 = Debug|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Release|.NET.ActiveCfg = Release|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Release|.NET.Build.0 = Release|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Release|Win32.ActiveCfg = Release|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Release|Win32.Build.0 = Release|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Release|x86.ActiveCfg = Release|Any CPU
-		{3F84FC66-8EC7-4A56-9AA2-ED30F5565E24}.Release|x86.Build.0 = Release|Any CPU
 		{CAA5BC94-0922-4F30-AC20-B28D0BB748C1}.Debug|.NET.ActiveCfg = Debug|Any CPU
 		{CAA5BC94-0922-4F30-AC20-B28D0BB748C1}.Debug|.NET.Build.0 = Debug|Any CPU
 		{CAA5BC94-0922-4F30-AC20-B28D0BB748C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

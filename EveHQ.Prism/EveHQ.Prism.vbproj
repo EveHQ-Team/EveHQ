@@ -135,6 +135,7 @@
     <Compile Include="BPCalc\JobResource.vb" />
     <Compile Include="BPCalc\OwnedBlueprint.vb" />
     <Compile Include="BPCalc\SwapResource.vb" />
+    <Compile Include="Classes\AssetLocation.vb" />
     <Compile Include="Classes\BlueprintAsset.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="_Deprecated\BPCCostInfo.vb" />

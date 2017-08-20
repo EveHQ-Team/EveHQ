@@ -528,7 +528,7 @@ Namespace Controls
                         If _ownedResources(itemID).Count > 1 Then
                             For Each resourceLocation As String In _ownedResources(itemID).Keys
                                 If resourceLocation <> "TotalOwned" Then
-                                    Dim newLoc As New Node(Locations.GetLocationNameFromID(CLng(resourceLocation)))
+                                    Dim newLoc As New Node(Locations.GetLocationFromID(CLng(resourceLocation)).ContainerName)
                                     newLoc.Cells.Add(New Cell(""))
                                     newLoc.Cells.Add(New Cell(_ownedResources(itemID).Item(resourceLocation).ToString("N0")))
                                     newLoc.Cells.Add(New Cell(""))

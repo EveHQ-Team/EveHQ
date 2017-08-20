@@ -189,6 +189,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResponseMode.cs" />
     <Compile Include="ServerClient.cs" />
+    <Compile Include="StructureNameClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EveHQ.Caching\EveHQ.Caching.csproj">
@@ -198,6 +199,10 @@
     <ProjectReference Include="..\EveHQ.Common\EveHQ.Common.csproj">
       <Project>{7CD9A34B-9635-4D69-B451-1CE93B8280D8}</Project>
       <Name>EveHQ.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EveHQ.EveData\EveHQ.EveData.csproj">
+      <Project>{C3FEE7B0-5E02-4910-BBB9-A03425294B7A}</Project>
+      <Name>EveHQ.EveData</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

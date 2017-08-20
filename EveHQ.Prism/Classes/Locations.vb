@@ -43,57 +43,104 @@
 '
 ' ==============================================================================
 
+Imports EveHQ.Core
 Imports EveHQ.EveData
 
 Namespace Classes
+	Public Class Locations
+		Public Shared Function GetLocationFromID(locationId As Long) As AssetLocation
+			If locationId >= 66014933 Then
+				Return GetStructureLocation(locationId)
+			End If
+			
+			If locationId >= 66000000 Then
+				If locationId < 66014933 Then
+					locationId = locationId - 6000001
+				Else
+					locationId = locationId - 6000000
+				End If
+			End If
 
-    Public Class Locations
-        Public Shared Function GetLocationNameFromID(ByVal locID As Long) As String
-            If locID >= 66000000 Then
-                If locID < 66014933 Then
-                    locID = locID - 6000001
-                Else
-                    locID = locID - 6000000
-                End If
-            End If
-            Dim newLocation As Station = Nothing
-            If locID >= 61000000 And locID <= 61999999 Then
-                If StaticData.Stations.ContainsKey(locID) = True Then
-                    ' Known Outpost
-                    newLocation = StaticData.Stations(locID)
-                    Return newLocation.StationName
-                Else
-                    ' Unknown outpost!
-                    newLocation = New Station
-                    newLocation.StationId = locID
-                    newLocation.StationName = "Unknown Outpost"
-                    newLocation.SystemId = 0
-                    Return newLocation.StationName
-                End If
-            Else
-                If locID < 60000000 Then
-                    If StaticData.Stations.ContainsKey(locID) Then
-                        Dim newSystem As SolarSystem = StaticData.SolarSystems(CInt(locID))
-                        Return newSystem.Name
-                    Else
-                        Return "Unknown Location"
-                    End If
-                Else
-                    If StaticData.Stations.ContainsKey(locID) Then
-                        newLocation = StaticData.Stations(locID)
-                    End If
-                    If newLocation IsNot Nothing Then
-                        Return newLocation.StationName
-                    Else
-                        ' Unknown system/station!
-                        newLocation = New Station
-                        newLocation.StationId = locID
-                        newLocation.StationName = "Unknown Location " + locID.ToString()
-                        newLocation.SystemId = 0
-                        Return newLocation.StationName
-                    End If
-                End If
-            End If
-        End Function
-    End Class
+			If CDbl(locationId) >= 61000000 And CDbl(locationId) <= 61999999 Then
+				Return GetOutpostLocation(locationId)
+			Else
+				If locationId < 60000000 Then
+					Return GetSolarSystemLocation(locationId)
+				Else
+					Return GetStationLocation(locationId)
+				End If
+			End If
+		End Function
+
+		Private Shared Function GetStationLocation(locationId As Long) As AssetLocation
+			Dim result = New AssetLocation()
+
+			If StaticData.Stations.ContainsKey(locationId) Then
+				Dim newLocation = StaticData.Stations(locationId)
+				result.ContainerName = newLocation.StationName
+				result.ContainerId = newLocation.StationId
+				result.SolarSystem = StaticData.SolarSystems(newLocation.SystemId)
+			Else
+				result.ContainerName = $"Unknown station {locationId}"
+			End If
+
+			Return result
+		End Function
+
+		Private Shared Function GetSolarSystemLocation(locationId As Long) As AssetLocation
+			Dim result = New AssetLocation()
+
+			If StaticData.SolarSystems.ContainsKey(CInt(locationId)) Then
+				Dim newSystem As SolarSystem = StaticData.SolarSystems(CInt(locationId))
+				result.ContainerName = newSystem.Name
+				result.ContainerId = newSystem.Id
+				result.SolarSystem = newSystem
+			Else
+				result.ContainerName = $"Unknown System {locationId}"
+				result.ContainerId = locationId
+				result.SolarSystem = Nothing
+			End If
+
+			Return result
+		End Function
+
+		Private Shared Function GetOutpostLocation(locationId As Long) As AssetLocation
+			Dim result = New AssetLocation()
+
+			If StaticData.Stations.ContainsKey(locationId) = True Then
+				' Known Outpost
+				Dim newLocation = StaticData.Stations(locationId)
+				result.ContainerName = newLocation.StationName
+				result.ContainerId = newLocation.StationId
+				result.SolarSystem = StaticData.SolarSystems(newLocation.SystemId)
+			Else
+				' Unknown outpost!
+				result.ContainerName = $"Unknown Outpost {locationId}"
+				result.ContainerId = locationId
+				result.SolarSystem = Nothing
+			End If
+
+			Return result
+		End Function
+
+		Private Shared Function GetStructureLocation(locationId As Long) As AssetLocation
+			Dim result = New AssetLocation()
+			Dim structureNameTask = HQ.ApiProvider.StructureName.GetStructureNameAsync(locationId)
+			structureNameTask.Wait()
+			If structureNameTask.Result.IsSuccess Then
+				' Citadel or Engineering Complex
+				Dim eveStructure As EveStructure = structureNameTask.Result.ResultData
+				result.ContainerName = $"{eveStructure.StructureName} ({eveStructure.StructureTypeName})"
+				result.ContainerId = locationId
+				result.SolarSystem = StaticData.SolarSystems(eveStructure.SystemId)
+			Else
+				' Unknown system/station!
+				result.ContainerName = $"Unknown Location {locationId} (Wreck?)"
+				result.ContainerId = locationId
+				result.SolarSystem = Nothing
+			End If
+
+			Return result
+		End Function
+	End Class
 End Namespace

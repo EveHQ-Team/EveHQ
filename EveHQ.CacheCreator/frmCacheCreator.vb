@@ -417,7 +417,7 @@ Public Class FrmCacheCreator
         StaticData.Types.Clear()
         Dim evehqData As DataSet
         Dim strSql As String = ""
-        strSql &= "SELECT invTypes.*, invGroups.categoryID FROM invGroups INNER JOIN invTypes ON invGroups.groupID = invTypes.groupID where typeName not like ""%?YC117?%"""
+        strSql &= "SELECT invTypes.*, invGroups.categoryID FROM invGroups INNER JOIN invTypes ON invGroups.groupID = invTypes.groupID where typeName not like ""%?YC117?%"" AND typeName <> ""#System"""
         evehqData = DatabaseFunctions.GetStaticData(strSql)
         Dim newItem As EveType
         For Each itemRow As DataRow In evehqData.Tables(0).Rows
@@ -507,7 +507,7 @@ Public Class FrmCacheCreator
     Private Sub LoadItemMarketGroups()
 
         StaticData.ItemMarketGroups.Clear()
-        Using evehqData As DataSet = DatabaseFunctions.GetStaticData("SELECT typeID, marketGroupID FROM invTypes WHERE marketGroupID IS NOT NULL;")
+        Using evehqData As DataSet = DatabaseFunctions.GetStaticData("Select typeID, marketGroupID FROM invTypes WHERE marketGroupID Is Not NULL AND typeName <> ""#System"";")
             If evehqData IsNot Nothing Then
                 If evehqData.Tables(0).Rows.Count > 0 Then
                     For Each itemRow As DataRow In evehqData.Tables(0).Rows
@@ -522,7 +522,7 @@ Public Class FrmCacheCreator
     Private Sub LoadItemList()
 
         StaticData.TypeNames.Clear()
-        Using evehqData As DataSet = DatabaseFunctions.GetStaticData("SELECT * FROM invTypes ORDER BY typeName;")
+        Using evehqData As DataSet = DatabaseFunctions.GetStaticData("Select * FROM invTypes WHERE typeName <> ""#System"" ORDER BY typeName;")
             Dim iKey As String
             Dim iValue As String
             For item As Integer = 0 To evehqData.Tables(0).Rows.Count - 1
@@ -539,7 +539,7 @@ Public Class FrmCacheCreator
     Private Sub LoadItemCategories()
 
         StaticData.TypeCats.Clear()
-        Using evehqData As DataSet = DatabaseFunctions.GetStaticData("SELECT * FROM invCategories ORDER BY categoryName;")
+        Using evehqData As DataSet = DatabaseFunctions.GetStaticData("SELECT * FROM invCategories WHERE categoryName <> ""#System"" ORDER BY categoryName;")
             Dim iKey As Integer
             Dim iValue As String
             For item As Integer = 0 To evehqData.Tables(0).Rows.Count - 1
@@ -554,7 +554,7 @@ Public Class FrmCacheCreator
     Private Sub LoadItemGroups()
 
         StaticData.TypeGroups.Clear()
-        Using evehqData As DataSet = DatabaseFunctions.GetStaticData("SELECT * FROM invGroups inner join invCategories on invGroups.categoryID = invCategories.categoryID ORDER BY groupName;")
+        Using evehqData As DataSet = DatabaseFunctions.GetStaticData("SELECT * FROM invGroups inner join invCategories on invGroups.categoryID = invCategories.categoryID WHERE groupName <> ""#System"" ORDER BY groupName;")
 
             Dim iKey As Integer
             Dim iValue As String
@@ -570,7 +570,7 @@ Public Class FrmCacheCreator
     Private Sub LoadGroupCats()
 
         StaticData.GroupCats.Clear()
-        Using evehqData As DataSet = DatabaseFunctions.GetStaticData("SELECT * FROM invGroups inner join invCategories on invGroups.categoryID = invCategories.categoryID ORDER BY groupName;")
+        Using evehqData As DataSet = DatabaseFunctions.GetStaticData("SELECT * FROM invGroups inner join invCategories on invGroups.categoryID = invCategories.categoryID WHERE groupName <> ""#System"" ORDER BY groupName;")
             Dim iKey As Integer
             Dim iValue As Integer
             For item As Integer = 0 To evehqData.Tables(0).Rows.Count - 1
@@ -1023,10 +1023,10 @@ Public Class FrmCacheCreator
                 Dim ta As New TypeAttrib
                 ta.TypeId = CInt(evehqData.Tables(0).Rows(item).Item("typeID"))
                 ta.AttributeId = CInt(evehqData.Tables(0).Rows(item).Item("attributeID"))
-                If IsDBNull(evehqData.Tables(0).Rows(item).Item("valueInt")) = False Then
-                    ta.Value = CDbl(evehqData.Tables(0).Rows(item).Item("valueInt"))
-                Else
+                If IsDBNull(evehqData.Tables(0).Rows(item).Item("valueFloat")) = False Then
                     ta.Value = CDbl(evehqData.Tables(0).Rows(item).Item("valueFloat"))
+                Else
+                    ta.Value = CDbl(evehqData.Tables(0).Rows(item).Item("valueInt"))
                 End If
                 StaticData.TypeAttributes.Add(ta)
             Next

@@ -71,6 +71,7 @@
     <Compile Include="SolarSystem.cs" />
     <Compile Include="StaticData.cs" />
     <Compile Include="Station.cs" />
+    <Compile Include="EveStructure.cs" />
     <Compile Include="TypeAttrib.cs" />
     <Compile Include="TypeEffect.cs" />
     <Compile Include="TypeMaterial.cs" />
