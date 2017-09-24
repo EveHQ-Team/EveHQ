@@ -120,7 +120,7 @@
             Me.adtJournals.Columns.Add(Me.colDifference)
             Me.adtJournals.ExpandWidth = 0
             Me.adtJournals.Font = New System.Drawing.Font("Tahoma", 6.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-            Me.adtJournals.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtJournals.Location = New System.Drawing.Point(12, 41)
             Me.adtJournals.Name = "adtJournals"
             Me.adtJournals.NodesConnector = Me.NodeConnector1

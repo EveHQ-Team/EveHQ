@@ -621,6 +621,11 @@ namespace EveHQ.Market.MarketServices
         {
             var resultItems = new List<ItemOrderStats>();
 
+	        if (!_isServiceAvailable)
+	        {
+		        return resultItems;
+	        }
+
             // make the request for the types we don't have valid caches for
             NameValueCollection requestParameters = CreateMarketRequestParameters(
                 typesToRequest, 
@@ -630,9 +635,15 @@ namespace EveHQ.Market.MarketServices
 
             Task<HttpResponseMessage> requestTask =
                 _requestProvider.PostAsync(new Uri(EveCentralBaseUrl + MarketStatApi), requestParameters);
-            requestTask.Wait(); // wait for the completion (we're in a background task anyways)
 
-            if (requestTask.IsCompleted && requestTask.Result != null && !requestTask.IsCanceled &&
+	        requestTask.Wait(); // wait for the completion (we're in a background task anyways)
+	        if (!requestTask.Result.IsSuccessStatusCode || WebServiceExceptionHelper.IsServiceUnabailableError(requestTask.Exception))
+	        {
+		        _isServiceAvailable = false;
+				return resultItems;
+	        }
+
+			if (requestTask.IsCompleted && requestTask.Result != null && !requestTask.IsCanceled &&
                 !requestTask.IsFaulted && requestTask.Exception == null)
             {
                 Task<Stream> contentStreamTask = requestTask.Result.Content.ReadAsStreamAsync();
@@ -670,5 +681,7 @@ namespace EveHQ.Market.MarketServices
 
             return resultItems;
         }
+
+		private static bool _isServiceAvailable = true;
     }
 }

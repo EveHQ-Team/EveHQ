@@ -750,7 +750,7 @@ Namespace Forms
             Me.adtCorpReps.DragDropEnabled = False
             Me.adtCorpReps.DragDropNodeCopyEnabled = False
             Me.adtCorpReps.ExpandWidth = 0
-            Me.adtCorpReps.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtCorpReps.Location = New System.Drawing.Point(3, 3)
             Me.adtCorpReps.Name = "adtCorpReps"
             Me.adtCorpReps.NodesConnector = Me.NodeConnector1

@@ -786,7 +786,7 @@ Namespace Forms
             Me.rbImportExport.ContainerControlProcessDialogKey = True
             Me.rbImportExport.DragDropSupport = True
             Me.rbImportExport.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.ItemContainer1, Me.ItemContainer2})
-            Me.rbImportExport.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbImportExport.Location = New System.Drawing.Point(1001, 0)
             Me.rbImportExport.Name = "rbImportExport"
             Me.rbImportExport.Size = New System.Drawing.Size(119, 90)
@@ -886,7 +886,7 @@ Namespace Forms
             Me.rbAttributeTools.ContainerControlProcessDialogKey = True
             Me.rbAttributeTools.DragDropSupport = True
             Me.rbAttributeTools.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnImplants, Me.btnRemap})
-            Me.rbAttributeTools.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbAttributeTools.Location = New System.Drawing.Point(58, 0)
             Me.rbAttributeTools.Name = "rbAttributeTools"
             Me.rbAttributeTools.Size = New System.Drawing.Size(99, 90)
@@ -939,7 +939,7 @@ Namespace Forms
             Me.rbQueueSettings.ContainerControlProcessDialogKey = True
             Me.rbQueueSettings.DragDropSupport = True
             Me.rbQueueSettings.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnQueueSettings})
-            Me.rbQueueSettings.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbQueueSettings.Location = New System.Drawing.Point(0, 0)
             Me.rbQueueSettings.Name = "rbQueueSettings"
             Me.rbQueueSettings.Size = New System.Drawing.Size(56, 90)
@@ -980,7 +980,7 @@ Namespace Forms
             Me.rbQueueFunctions.ContainerControlProcessDialogKey = True
             Me.rbQueueFunctions.DragDropSupport = True
             Me.rbQueueFunctions.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnRBAddSkill, Me.btnRBDeleteSkill, Me.btnRBIncreaseLevel, Me.btnRBDecreaseLevel, Me.btnRBMoveUpQueue, Me.btnRBMoveDownQueue, Me.btnRBClearQueue, Me.btnRBSplitQueue, Me.btnAddRequisition})
-            Me.rbQueueFunctions.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbQueueFunctions.Location = New System.Drawing.Point(543, 0)
             Me.rbQueueFunctions.Name = "rbQueueFunctions"
             Me.rbQueueFunctions.Size = New System.Drawing.Size(456, 90)
@@ -1102,7 +1102,7 @@ Namespace Forms
             Me.rbQueueAdmin.ContainerControlProcessDialogKey = True
             Me.rbQueueAdmin.DragDropSupport = True
             Me.rbQueueAdmin.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnRBAddQueue, Me.btnRBEditQueue, Me.btnRBDeleteQueue, Me.btnRBSetPrimaryQueue, Me.btnRBMergeQueues, Me.btnRBCopyQueue, Me.btnRBCopyQueueToPilot, Me.btnIncTraining})
-            Me.rbQueueAdmin.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbQueueAdmin.Location = New System.Drawing.Point(159, 0)
             Me.rbQueueAdmin.Name = "rbQueueAdmin"
             Me.rbQueueAdmin.Size = New System.Drawing.Size(382, 90)
@@ -1201,7 +1201,7 @@ Namespace Forms
             'SuperTooltip1
             '
             Me.SuperTooltip1.DefaultTooltipSettings = New DevComponents.DotNetBar.SuperTooltipInfo("", "", "", Nothing, Nothing, DevComponents.DotNetBar.eTooltipColor.Gray)
-            Me.SuperTooltip1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.SuperTooltip1.PositionBelowControl = False
             '
             'tabQueueMode
@@ -1284,7 +1284,7 @@ Namespace Forms
             Me.adtSkillList.ContextMenuStrip = Me.ctxDetails
             Me.adtSkillList.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
             Me.adtSkillList.ImageList = Me.ImageList1
-            Me.adtSkillList.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtSkillList.Location = New System.Drawing.Point(4, 35)
             Me.adtSkillList.Name = "adtSkillList"
             Me.adtSkillList.NodesConnector = Me.NodeConnector2

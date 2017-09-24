@@ -1138,7 +1138,7 @@ Namespace Forms
             Me.adtAttributeColumns.DragDropEnabled = False
             Me.adtAttributeColumns.DragDropNodeCopyEnabled = False
             Me.adtAttributeColumns.ExpandWidth = 0
-            Me.adtAttributeColumns.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtAttributeColumns.Location = New System.Drawing.Point(6, 20)
             Me.adtAttributeColumns.Name = "adtAttributeColumns"
             Me.adtAttributeColumns.NodesConnector = Me.NodeConnector1

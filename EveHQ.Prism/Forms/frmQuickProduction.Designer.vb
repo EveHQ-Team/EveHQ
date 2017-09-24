@@ -85,7 +85,7 @@ Namespace Forms
             Me.adtResources.Columns.Add(Me.colMaterial)
             Me.adtResources.Columns.Add(Me.colQty)
             Me.adtResources.ExpandWidth = 0
-            Me.adtResources.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtResources.Location = New System.Drawing.Point(12, 66)
             Me.adtResources.Name = "adtResources"
             Me.adtResources.NodesConnector = Me.NodeConnector1

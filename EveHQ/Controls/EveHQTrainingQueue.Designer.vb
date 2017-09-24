@@ -216,7 +216,7 @@ Namespace Controls
             Me.adtQueue.DragDropNodeCopyEnabled = False
             Me.adtQueue.DropAsChildOffset = 10000
             Me.adtQueue.ExpandWidth = 0
-            Me.adtQueue.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtQueue.Location = New System.Drawing.Point(0, 0)
             Me.adtQueue.MultiSelect = True
             Me.adtQueue.Name = "adtQueue"

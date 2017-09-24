@@ -303,7 +303,7 @@ Namespace Forms
             Me.rbPlugins.ContainerControlProcessDialogKey = True
             Me.rbPlugins.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbPlugins.DragDropSupport = True
-            Me.rbPlugins.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbPlugins.Location = New System.Drawing.Point(3, 0)
             Me.rbPlugins.Name = "rbPlugins"
             Me.rbPlugins.OverflowButtonText = "Click for more plug-ins!"
@@ -517,7 +517,7 @@ Namespace Forms
             Me.rbAPITools.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbAPITools.DragDropSupport = True
             Me.rbAPITools.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.ItemContainer2, Me.btnSQLQueryTool})
-            Me.rbAPITools.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbAPITools.Location = New System.Drawing.Point(706, 0)
             Me.rbAPITools.Name = "rbAPITools"
             Me.rbAPITools.Size = New System.Drawing.Size(181, 92)
@@ -611,7 +611,7 @@ Namespace Forms
             Me.rbBackup.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbBackup.DragDropSupport = True
             Me.rbBackup.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.ItemContainer5})
-            Me.rbBackup.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbBackup.Location = New System.Drawing.Point(592, 0)
             Me.rbBackup.Name = "rbBackup"
             Me.rbBackup.Size = New System.Drawing.Size(114, 92)
@@ -676,7 +676,7 @@ Namespace Forms
             Me.rbEveMail.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbEveMail.DragDropSupport = True
             Me.rbEveMail.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnEveMail, Me.lblEveMail})
-            Me.rbEveMail.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbEveMail.Location = New System.Drawing.Point(462, 0)
             Me.rbEveMail.Name = "rbEveMail"
             Me.rbEveMail.Size = New System.Drawing.Size(130, 92)
@@ -741,7 +741,7 @@ Namespace Forms
             Me.rbView.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbView.DragDropSupport = True
             Me.rbView.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnViewPilotInfo, Me.btnViewSkillTraining, Me.btnViewPrices, Me.btnViewDashboard, Me.btnViewReqs, Me.btnIB})
-            Me.rbView.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbView.Location = New System.Drawing.Point(146, 0)
             Me.rbView.Name = "rbView"
             Me.rbView.Size = New System.Drawing.Size(316, 92)
@@ -863,7 +863,7 @@ Namespace Forms
             Me.rbAPI.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbAPI.DragDropSupport = True
             Me.rbAPI.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnManageAPI, Me.btnQueryAPI})
-            Me.rbAPI.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbAPI.Location = New System.Drawing.Point(52, 0)
             Me.rbAPI.Name = "rbAPI"
             Me.rbAPI.Size = New System.Drawing.Size(94, 92)
@@ -924,7 +924,7 @@ Namespace Forms
             Me.rbOptions.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbOptions.DragDropSupport = True
             Me.rbOptions.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnSave})
-            Me.rbOptions.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbOptions.Location = New System.Drawing.Point(3, 0)
             Me.rbOptions.Name = "rbOptions"
             Me.rbOptions.Size = New System.Drawing.Size(49, 92)
@@ -999,7 +999,7 @@ Namespace Forms
             Me.rbCharts.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbCharts.DragDropSupport = True
             Me.rbCharts.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnChartSkillGroup, Me.btnChartSkillCost})
-            Me.rbCharts.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbCharts.Location = New System.Drawing.Point(2187, 0)
             Me.rbCharts.Name = "rbCharts"
             Me.rbCharts.Size = New System.Drawing.Size(123, 92)
@@ -1061,7 +1061,7 @@ Namespace Forms
             Me.rbPHPBB.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbPHPBB.DragDropSupport = True
             Me.rbPHPBB.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnPHPBBCharacterSheet})
-            Me.rbPHPBB.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbPHPBB.Location = New System.Drawing.Point(2123, 0)
             Me.rbPHPBB.Name = "rbPHPBB"
             Me.rbPHPBB.Size = New System.Drawing.Size(64, 92)
@@ -1109,7 +1109,7 @@ Namespace Forms
             Me.rbXML.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbXML.DragDropSupport = True
             Me.rbXML.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnXMLCharacterXML, Me.btnXMLTrainingXML, Me.btnXMLCurrentCharOld, Me.btnXMLCurrentCharNew, Me.btnXMLCurrentTrainingOld, Me.btnXMLECMExport})
-            Me.rbXML.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbXML.Location = New System.Drawing.Point(1787, 0)
             Me.rbXML.Name = "rbXML"
             Me.rbXML.Size = New System.Drawing.Size(336, 92)
@@ -1235,7 +1235,7 @@ Namespace Forms
             Me.rbText.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbText.DragDropSupport = True
             Me.rbText.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnTextCharacterSheet, Me.btnTextTrainingTimes, Me.btnTextTimeToLvl5, Me.btnTextSkillLevels, Me.btnTextSkillRanks, Me.btnTextTrainingQueue, Me.btnTextQueueShoppingList, Me.btnTextSkillsAvailable, Me.btnTextSkillsNotTrained, Me.btnTextPartiallyTrained, Me.btnTextSkillsCost})
-            Me.rbText.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbText.Location = New System.Drawing.Point(1173, 0)
             Me.rbText.Name = "rbText"
             Me.rbText.Size = New System.Drawing.Size(614, 92)
@@ -1437,7 +1437,7 @@ Namespace Forms
             Me.rbHTML.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbHTML.DragDropSupport = True
             Me.rbHTML.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnHTMLCharSheet, Me.btnHTMLTrainingTimes, Me.btnHTMLTimeToLvl5, Me.btnHTMLSkillLevels, Me.btnHTMLSkillRanks, Me.btnHTMLTrainingQueue, Me.btnHTMLQueueShoppingList, Me.btnHTMLSkillsAvailable, Me.btnHTMLSkillsNotTrained, Me.btnHTMLPartiallyTrained, Me.btnHTMLSkillsCost, Me.btnHTMLCertGrades})
-            Me.rbHTML.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbHTML.Location = New System.Drawing.Point(497, 0)
             Me.rbHTML.Name = "rbHTML"
             Me.rbHTML.Size = New System.Drawing.Size(676, 92)
@@ -1681,7 +1681,7 @@ Namespace Forms
             Me.rbStandard.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbStandard.DragDropSupport = True
             Me.rbStandard.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnStdCharSummary, Me.btnStdSkillLevels, Me.btnStdAlloyReport, Me.btnStdAsteroidReport, Me.btnStdIceReport})
-            Me.rbStandard.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbStandard.Location = New System.Drawing.Point(169, 0)
             Me.rbStandard.Name = "rbStandard"
             Me.rbStandard.Size = New System.Drawing.Size(328, 92)
@@ -1794,7 +1794,7 @@ Namespace Forms
             Me.rbReportOptions.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbReportOptions.DragDropSupport = True
             Me.rbReportOptions.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.icReportOptions})
-            Me.rbReportOptions.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbReportOptions.Location = New System.Drawing.Point(3, 0)
             Me.rbReportOptions.Name = "rbReportOptions"
             Me.rbReportOptions.Size = New System.Drawing.Size(166, 92)
@@ -2183,7 +2183,7 @@ Namespace Forms
             Me.rbHelp.Dock = System.Windows.Forms.DockStyle.Left
             Me.rbHelp.DragDropSupport = True
             Me.rbHelp.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnInfoHelp})
-            Me.rbHelp.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbHelp.Location = New System.Drawing.Point(1020, 0)
             Me.rbHelp.Name = "rbHelp"
             Me.rbHelp.Size = New System.Drawing.Size(73, 92)
@@ -2226,7 +2226,7 @@ Namespace Forms
             Me.DotNetBarManager1.AutoDispatchShortcuts.Add(DevComponents.DotNetBar.eShortcut.Ins)
             Me.DotNetBarManager1.BottomDockSite = Me.DockSite4
             Me.DotNetBarManager1.LeftDockSite = Me.DockSite1
-            Me.DotNetBarManager1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.DotNetBarManager1.ParentForm = Me
             Me.DotNetBarManager1.RightDockSite = Me.DockSite2
             Me.DotNetBarManager1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled
@@ -2485,7 +2485,7 @@ Namespace Forms
             '
             Me.SuperTooltip1.DefaultFont = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
             Me.SuperTooltip1.DefaultTooltipSettings = SuperTooltipInfo1
-            Me.SuperTooltip1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.SuperTooltip1.PositionBelowControl = False
             '
             'StyleManager1

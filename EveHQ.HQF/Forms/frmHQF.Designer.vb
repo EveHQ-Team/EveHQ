@@ -256,7 +256,7 @@ Namespace Forms
             Me.tvwShips.Dock = System.Windows.Forms.DockStyle.Fill
             Me.tvwShips.DragDropEnabled = False
             Me.tvwShips.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
-            Me.tvwShips.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.tvwShips.Location = New System.Drawing.Point(0, 330)
             Me.tvwShips.Name = "tvwShips"
             Me.tvwShips.NodesConnector = Me.NodeConnector1
@@ -660,7 +660,7 @@ Namespace Forms
             Me.tvwModules.DragDropEnabled = False
             Me.tvwModules.ExpandWidth = 0
             Me.tvwModules.Indent = 0
-            Me.tvwModules.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.tvwModules.Location = New System.Drawing.Point(0, 0)
             Me.tvwModules.Name = "tvwModules"
             Me.tvwModules.Nodes.AddRange(New DevComponents.AdvTree.Node() {Me.Node3})
@@ -807,7 +807,7 @@ Namespace Forms
             Me.tvwItems.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
             Me.tvwItems.DragDropEnabled = False
             Me.tvwItems.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
-            Me.tvwItems.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.tvwItems.Location = New System.Drawing.Point(0, 0)
             Me.tvwItems.Name = "tvwItems"
             Me.tvwItems.NodesConnector = Me.NodeConnector3
@@ -958,7 +958,7 @@ Namespace Forms
             Me.tvwFittings.ContextMenuStrip = Me.ctxFittings
             Me.tvwFittings.DragDropEnabled = False
             Me.tvwFittings.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
-            Me.tvwFittings.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.tvwFittings.Location = New System.Drawing.Point(0, 0)
             Me.tvwFittings.MultiSelect = True
             Me.tvwFittings.MultiSelectRule = DevComponents.AdvTree.eMultiSelectRule.AnyNode
@@ -1074,7 +1074,7 @@ Namespace Forms
             Me.rbEditor.ContainerControlProcessDialogKey = True
             Me.rbEditor.DragDropSupport = True
             Me.rbEditor.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnEditor})
-            Me.rbEditor.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbEditor.Location = New System.Drawing.Point(719, 0)
             Me.rbEditor.Name = "rbEditor"
             Me.rbEditor.Size = New System.Drawing.Size(53, 100)
@@ -1114,7 +1114,7 @@ Namespace Forms
             Me.rbImport.ContainerControlProcessDialogKey = True
             Me.rbImport.DragDropSupport = True
             Me.rbImport.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.ItemContainer2, Me.btnImport})
-            Me.rbImport.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbImport.Location = New System.Drawing.Point(521, 0)
             Me.rbImport.Name = "rbImport"
             Me.rbImport.Size = New System.Drawing.Size(196, 100)
@@ -1186,7 +1186,7 @@ Namespace Forms
             Me.rbExport.ContainerControlProcessDialogKey = True
             Me.rbExport.DragDropSupport = True
             Me.rbExport.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnScreenGrab, Me.btnExportEve, Me.ItemContainer1, Me.btnExportReq})
-            Me.rbExport.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbExport.Location = New System.Drawing.Point(219, 0)
             Me.rbExport.Name = "rbExport"
             Me.rbExport.Size = New System.Drawing.Size(300, 100)
@@ -1314,7 +1314,7 @@ Namespace Forms
             Me.rbTools.ContainerControlProcessDialogKey = True
             Me.rbTools.DragDropSupport = True
             Me.rbTools.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnShipSelector, Me.btnPilotManager, Me.btnImplantManager})
-            Me.rbTools.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbTools.Location = New System.Drawing.Point(59, 0)
             Me.rbTools.Name = "rbTools"
             Me.rbTools.Size = New System.Drawing.Size(158, 100)
@@ -1379,7 +1379,7 @@ Namespace Forms
             Me.rbOptions.ContainerControlProcessDialogKey = True
             Me.rbOptions.DragDropSupport = True
             Me.rbOptions.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnOptions})
-            Me.rbOptions.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbOptions.Location = New System.Drawing.Point(0, 0)
             Me.rbOptions.Name = "rbOptions"
             Me.rbOptions.Size = New System.Drawing.Size(57, 100)
@@ -1410,14 +1410,14 @@ Namespace Forms
             '
             Me.SuperTooltip1.DefaultFont = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
             Me.SuperTooltip1.DefaultTooltipSettings = New DevComponents.DotNetBar.SuperTooltipInfo("", "", "", Nothing, Nothing, DevComponents.DotNetBar.eTooltipColor.Gray)
-            Me.SuperTooltip1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.SuperTooltip1.PositionBelowControl = False
             Me.SuperTooltip1.TooltipDuration = 0
             '
             'STTShips
             '
             Me.STTShips.DefaultTooltipSettings = New DevComponents.DotNetBar.SuperTooltipInfo("", "", "", Nothing, Nothing, DevComponents.DotNetBar.eTooltipColor.Gray)
-            Me.STTShips.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.STTShips.MinimumTooltipSize = New System.Drawing.Size(300, 100)
             Me.STTShips.PositionBelowControl = False
             Me.STTShips.TooltipDuration = 0

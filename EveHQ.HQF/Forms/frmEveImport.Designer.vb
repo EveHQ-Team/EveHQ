@@ -190,7 +190,7 @@
             Me.adtLoadOuts.ContextMenuStrip = Me.ctxLoadout
             Me.adtLoadOuts.DragDropEnabled = False
             Me.adtLoadOuts.DragDropNodeCopyEnabled = False
-            Me.adtLoadOuts.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtLoadOuts.Location = New System.Drawing.Point(12, 43)
             Me.adtLoadOuts.Name = "adtLoadOuts"
             Me.adtLoadOuts.NodesConnector = Me.NodeConnector1

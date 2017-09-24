@@ -95,7 +95,7 @@
             '
             'SuperTooltip1
             '
-            Me.SuperTooltip1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             '
             'adtSkills
             '
@@ -119,7 +119,7 @@
             Me.adtSkills.DragDropEnabled = False
             Me.adtSkills.DragDropNodeCopyEnabled = False
             Me.adtSkills.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
-            Me.adtSkills.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtSkills.Location = New System.Drawing.Point(12, 12)
             Me.adtSkills.Name = "adtSkills"
             Me.adtSkills.Nodes.AddRange(New DevComponents.AdvTree.Node() {Me.Node1})

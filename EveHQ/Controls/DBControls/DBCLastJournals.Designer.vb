@@ -164,7 +164,7 @@
             Me.adtLastTransactions.DragDropEnabled = False
             Me.adtLastTransactions.DragDropNodeCopyEnabled = False
             Me.adtLastTransactions.ExpandWidth = 0
-            Me.adtLastTransactions.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtLastTransactions.Location = New System.Drawing.Point(6, 62)
             Me.adtLastTransactions.Name = "adtLastTransactions"
             Me.adtLastTransactions.NodesConnector = Me.NodeConnector1

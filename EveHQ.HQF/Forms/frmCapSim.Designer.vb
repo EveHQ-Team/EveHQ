@@ -253,7 +253,7 @@
             Me.adtResults.ExpandWidth = 0
             Me.adtResults.GridLinesColor = System.Drawing.Color.Silver
             Me.adtResults.GridRowLines = True
-            Me.adtResults.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtResults.Location = New System.Drawing.Point(3, 0)
             Me.adtResults.Name = "adtResults"
             Me.adtResults.NodesConnector = Me.NodeConnector1
@@ -381,7 +381,7 @@
             Me.adtModules.ExpandWidth = 0
             Me.adtModules.GridLinesColor = System.Drawing.Color.Silver
             Me.adtModules.GridRowLines = True
-            Me.adtModules.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtModules.Location = New System.Drawing.Point(3, 0)
             Me.adtModules.Name = "adtModules"
             Me.adtModules.NodesConnector = Me.NodeConnector2

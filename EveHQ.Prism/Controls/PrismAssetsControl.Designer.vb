@@ -299,7 +299,7 @@
             Me.adtAssets.DragDropEnabled = False
             Me.adtAssets.DragDropNodeCopyEnabled = False
             Me.adtAssets.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
-            Me.adtAssets.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtAssets.Location = New System.Drawing.Point(6, 82)
             Me.adtAssets.MultiSelect = True
             Me.adtAssets.MultiSelectRule = DevComponents.AdvTree.eMultiSelectRule.AnyNode
@@ -813,7 +813,7 @@
             '
             'STT
             '
-            Me.STT.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             '
             '_updateInProgress
             '

@@ -212,7 +212,7 @@
             Me.adtShips.DragDropNodeCopyEnabled = False
             Me.adtShips.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
             Me.adtShips.KeyboardSearchEnabled = False
-            Me.adtShips.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtShips.Location = New System.Drawing.Point(1, 1)
             Me.adtShips.Name = "adtShips"
             Me.adtShips.NodeSpacing = 1

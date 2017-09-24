@@ -1149,7 +1149,7 @@ Namespace Forms
             Me.adtCerts.DragDropNodeCopyEnabled = False
             Me.adtCerts.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
             Me.adtCerts.KeyboardSearchEnabled = False
-            Me.adtCerts.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtCerts.Location = New System.Drawing.Point(1, 1)
             Me.adtCerts.Name = "adtCerts"
             Me.adtCerts.NodeSpacing = 1
@@ -1258,7 +1258,7 @@ Namespace Forms
             Me.adtSkills.DragDropNodeCopyEnabled = False
             Me.adtSkills.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
             Me.adtSkills.KeyboardSearchEnabled = False
-            Me.adtSkills.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtSkills.Location = New System.Drawing.Point(1, 1)
             Me.adtSkills.Name = "adtSkills"
             Me.adtSkills.NodeSpacing = 1
@@ -1404,7 +1404,7 @@ Namespace Forms
             Me.adtStandings.DragDropEnabled = False
             Me.adtStandings.DragDropNodeCopyEnabled = False
             Me.adtStandings.ExpandWidth = 0
-            Me.adtStandings.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtStandings.Location = New System.Drawing.Point(4, 33)
             Me.adtStandings.Name = "adtStandings"
             Me.adtStandings.NodesConnector = Me.NodeConnector1

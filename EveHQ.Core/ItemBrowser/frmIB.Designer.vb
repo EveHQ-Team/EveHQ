@@ -414,7 +414,7 @@
             Me.adtComponents.DragDropEnabled = False
             Me.adtComponents.DragDropNodeCopyEnabled = False
             Me.adtComponents.ExpandWidth = 0
-            Me.adtComponents.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtComponents.Location = New System.Drawing.Point(1, 1)
             Me.adtComponents.Name = "adtComponents"
             Me.adtComponents.NodesConnector = Me.NodeConnector9
@@ -490,7 +490,7 @@
             Me.adtMaterials.DragDropEnabled = False
             Me.adtMaterials.DragDropNodeCopyEnabled = False
             Me.adtMaterials.ExpandWidth = 0
-            Me.adtMaterials.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtMaterials.Location = New System.Drawing.Point(1, 1)
             Me.adtMaterials.Name = "adtMaterials"
             Me.adtMaterials.NodesConnector = Me.NodeConnector8
@@ -566,7 +566,7 @@
             Me.adtAttributes.DragDropEnabled = False
             Me.adtAttributes.DragDropNodeCopyEnabled = False
             Me.adtAttributes.ExpandWidth = 0
-            Me.adtAttributes.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtAttributes.Location = New System.Drawing.Point(1, 1)
             Me.adtAttributes.Name = "adtAttributes"
             Me.adtAttributes.NodesConnector = Me.NodeConnector4
@@ -644,7 +644,7 @@
             Me.adtCerts.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
             Me.adtCerts.ExpandWidth = 8
             Me.adtCerts.KeyboardSearchEnabled = False
-            Me.adtCerts.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtCerts.Location = New System.Drawing.Point(1, 1)
             Me.adtCerts.Name = "adtCerts"
             Me.adtCerts.NodeSpacing = 1
@@ -743,7 +743,7 @@
             Me.adtVariations.DragDropEnabled = False
             Me.adtVariations.DragDropNodeCopyEnabled = False
             Me.adtVariations.ExpandWidth = 0
-            Me.adtVariations.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtVariations.Location = New System.Drawing.Point(1, 1)
             Me.adtVariations.Name = "adtVariations"
             Me.adtVariations.NodesConnector = Me.NodeConnector7
@@ -803,7 +803,7 @@
             Me.adtEffects.DragDropEnabled = False
             Me.adtEffects.DragDropNodeCopyEnabled = False
             Me.adtEffects.ExpandWidth = 0
-            Me.adtEffects.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtEffects.Location = New System.Drawing.Point(1, 1)
             Me.adtEffects.Name = "adtEffects"
             Me.adtEffects.NodesConnector = Me.NodeConnector5
@@ -896,7 +896,7 @@
             Me.adtFitting.DragDropEnabled = False
             Me.adtFitting.DragDropNodeCopyEnabled = False
             Me.adtFitting.ExpandWidth = 0
-            Me.adtFitting.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtFitting.Location = New System.Drawing.Point(1, 1)
             Me.adtFitting.Name = "adtFitting"
             Me.adtFitting.NodesConnector = Me.NodeConnector6
@@ -1190,7 +1190,7 @@
             Me.adtSearch.DragDropEnabled = False
             Me.adtSearch.DragDropNodeCopyEnabled = False
             Me.adtSearch.ExpandWidth = 0
-            Me.adtSearch.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtSearch.Location = New System.Drawing.Point(4, 46)
             Me.adtSearch.Name = "adtSearch"
             Me.adtSearch.NodesConnector = Me.NodeConnector1
@@ -1257,7 +1257,7 @@
             Me.adtBrowse.Dock = System.Windows.Forms.DockStyle.Fill
             Me.adtBrowse.DragDropEnabled = False
             Me.adtBrowse.DragDropNodeCopyEnabled = False
-            Me.adtBrowse.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtBrowse.Location = New System.Drawing.Point(1, 1)
             Me.adtBrowse.Name = "adtBrowse"
             Me.adtBrowse.NodesConnector = Me.NodeConnector10
@@ -1371,7 +1371,7 @@
             Me.adtAttSearch.DragDropEnabled = False
             Me.adtAttSearch.DragDropNodeCopyEnabled = False
             Me.adtAttSearch.ExpandWidth = 0
-            Me.adtAttSearch.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtAttSearch.Location = New System.Drawing.Point(4, 46)
             Me.adtAttSearch.Name = "adtAttSearch"
             Me.adtAttSearch.NodesConnector = Me.NodeConnector2
@@ -1493,7 +1493,7 @@
             Me.adtEffectSearch.DragDropEnabled = False
             Me.adtEffectSearch.DragDropNodeCopyEnabled = False
             Me.adtEffectSearch.ExpandWidth = 0
-            Me.adtEffectSearch.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtEffectSearch.Location = New System.Drawing.Point(4, 46)
             Me.adtEffectSearch.Name = "adtEffectSearch"
             Me.adtEffectSearch.NodesConnector = Me.NodeConnector3
@@ -1530,7 +1530,7 @@
             '
             'STTItem
             '
-            Me.STTItem.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.STTItem.MinimumTooltipSize = New System.Drawing.Size(200, 24)
             Me.STTItem.PositionBelowControl = False
             '
@@ -1586,7 +1586,7 @@
             Me.adtCategories.DragDropEnabled = False
             Me.adtCategories.DragDropNodeCopyEnabled = False
             Me.adtCategories.ExpandWidth = 0
-            Me.adtCategories.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtCategories.Location = New System.Drawing.Point(1, 1)
             Me.adtCategories.Name = "adtCategories"
             Me.adtCategories.NodesConnector = Me.NodeConnector11
@@ -1664,7 +1664,7 @@
             Me.adtGroups.DragDropEnabled = False
             Me.adtGroups.DragDropNodeCopyEnabled = False
             Me.adtGroups.ExpandWidth = 0
-            Me.adtGroups.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtGroups.Location = New System.Drawing.Point(1, 1)
             Me.adtGroups.Name = "adtGroups"
             Me.adtGroups.NodesConnector = Me.NodeConnector12

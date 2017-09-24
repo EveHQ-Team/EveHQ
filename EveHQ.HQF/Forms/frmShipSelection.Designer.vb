@@ -83,7 +83,7 @@
             Me.adtCriteria.Columns.Add(Me.colCondition)
             Me.adtCriteria.Columns.Add(Me.colValue)
             Me.adtCriteria.ExpandWidth = 0
-            Me.adtCriteria.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtCriteria.Location = New System.Drawing.Point(4, 4)
             Me.adtCriteria.Name = "adtCriteria"
             Me.adtCriteria.NodesConnector = Me.NodeConnector1
@@ -166,7 +166,7 @@
             Me.adtPropertyShips.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
             Me.adtPropertyShips.Columns.Add(Me.colShipName)
             Me.adtPropertyShips.ExpandWidth = 0
-            Me.adtPropertyShips.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtPropertyShips.Location = New System.Drawing.Point(4, 165)
             Me.adtPropertyShips.Name = "adtPropertyShips"
             Me.adtPropertyShips.NodesConnector = Me.NodeConnector2
@@ -371,7 +371,7 @@
             Me.adtTagResults.Columns.Add(Me.colFittingName)
             Me.adtTagResults.Columns.Add(Me.colRating)
             Me.adtTagResults.ExpandWidth = 0
-            Me.adtTagResults.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtTagResults.Location = New System.Drawing.Point(4, 167)
             Me.adtTagResults.Name = "adtTagResults"
             Me.adtTagResults.NodesConnector = Me.NodeConnector3

@@ -66,7 +66,7 @@
             Me.adtOrders.Columns.Add(Me.colItemQuantity)
             Me.adtOrders.Columns.Add(Me.colItemOriginator)
             Me.adtOrders.Columns.Add(Me.colItemDate)
-            Me.adtOrders.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtOrders.Location = New System.Drawing.Point(0, 119)
             Me.adtOrders.MultiSelect = True
             Me.adtOrders.Name = "adtOrders"

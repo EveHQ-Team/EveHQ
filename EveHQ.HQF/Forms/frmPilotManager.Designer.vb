@@ -412,7 +412,7 @@
             Me.adtSkills.DragDropNodeCopyEnabled = False
             Me.adtSkills.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
             Me.adtSkills.ImageList = Me.ImageList1
-            Me.adtSkills.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtSkills.Location = New System.Drawing.Point(9, 44)
             Me.adtSkills.Name = "adtSkills"
             Me.adtSkills.Nodes.AddRange(New DevComponents.AdvTree.Node() {Me.Node1})
@@ -757,7 +757,7 @@
             '
             'STT
             '
-            Me.STT.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.STT.MinimumTooltipSize = New System.Drawing.Size(300, 24)
             Me.STT.PositionBelowControl = False
             Me.STT.TooltipDuration = 30

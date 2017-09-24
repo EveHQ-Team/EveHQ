@@ -69,7 +69,7 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevComponents.DotNetBar2, Version=11.4.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+    <Reference Include="DevComponents.DotNetBar2">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Ref\DotNetBar\DevComponents.DotNetBar2.dll</HintPath>
     </Reference>
@@ -409,10 +409,6 @@
     <ProjectReference Include="..\EveHQ.Esi\EveHQ.Esi.csproj">
       <Project>{caa5bc94-0922-4f30-ac20-b28d0bb748c1}</Project>
       <Name>EveHQ.Esi</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EveHQ.EveCrest\EveHQ.EveCrest.csproj">
-      <Project>{3f84fc66-8ec7-4a56-9aa2-ed30f5565e24}</Project>
-      <Name>EveHQ.EveCrest</Name>
     </ProjectReference>
     <ProjectReference Include="..\EveHQ.EveData\EveHQ.EveData.csproj">
       <Project>{C3FEE7B0-5E02-4910-BBB9-A03425294B7A}</Project>

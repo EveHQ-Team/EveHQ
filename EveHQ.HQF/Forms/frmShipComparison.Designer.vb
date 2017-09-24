@@ -138,7 +138,7 @@
             Me.adtShips.DragDropEnabled = False
             Me.adtShips.DragDropNodeCopyEnabled = False
             Me.adtShips.ExpandWidth = 0
-            Me.adtShips.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtShips.Location = New System.Drawing.Point(12, 68)
             Me.adtShips.Name = "adtShips"
             Me.adtShips.Nodes.AddRange(New DevComponents.AdvTree.Node() {Me.Node1})
@@ -281,7 +281,7 @@
             '
             'STT
             '
-            Me.STT.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.STT.PositionBelowControl = False
             '
             'frmShipComparison

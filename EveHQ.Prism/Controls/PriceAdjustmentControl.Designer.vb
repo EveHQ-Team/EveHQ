@@ -32,7 +32,7 @@
             'STT
             '
             Me.STT.HoverDelayMultiplier = 4
-            Me.STT.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.STT.TooltipDuration = 10
             '
             'pbPAC

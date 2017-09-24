@@ -343,7 +343,7 @@ Partial Class FrmKmv
         Me.adtKillmails.DragDropEnabled = False
         Me.adtKillmails.DragDropNodeCopyEnabled = False
         Me.adtKillmails.ExpandWidth = 0
-        Me.adtKillmails.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+        
         Me.adtKillmails.Location = New System.Drawing.Point(9, 203)
         Me.adtKillmails.Name = "adtKillmails"
         Me.adtKillmails.NodesConnector = Me.NodeConnector1

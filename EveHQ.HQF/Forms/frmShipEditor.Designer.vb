@@ -147,7 +147,7 @@
             Me.adtShips.Columns.Add(Me.colCustomShipHull)
             Me.adtShips.Columns.Add(Me.colCustomShipClass)
             Me.adtShips.ExpandWidth = 0
-            Me.adtShips.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtShips.Location = New System.Drawing.Point(3, 32)
             Me.adtShips.Name = "adtShips"
             Me.adtShips.NodesConnector = Me.NodeConnector2
@@ -299,7 +299,7 @@
             Me.adtShipClasses.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
             Me.adtShipClasses.Columns.Add(Me.colCustomShipClassName)
             Me.adtShipClasses.ExpandWidth = 0
-            Me.adtShipClasses.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtShipClasses.Location = New System.Drawing.Point(3, 32)
             Me.adtShipClasses.Name = "adtShipClasses"
             Me.adtShipClasses.NodesConnector = Me.NodeConnector1
@@ -371,12 +371,12 @@
             '
             'sttHelp
             '
-            Me.sttHelp.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.sttHelp.PositionBelowControl = False
             '
             'sttInfo
             '
-            Me.sttInfo.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.sttInfo.PositionBelowControl = False
             '
             'frmShipEditor

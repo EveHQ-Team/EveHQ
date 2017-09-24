@@ -43,6 +43,8 @@
 '
 ' ==============================================================================
 
+Imports System.Net.Http
+Imports EveHQ.Common
 Imports EveHQ.Core
 Imports EveHQ.EveData
 
@@ -126,8 +128,19 @@ Namespace Classes
 		Private Shared Function GetStructureLocation(locationId As Long) As AssetLocation
 			Dim result = New AssetLocation()
 			Dim structureNameTask = HQ.ApiProvider.StructureName.GetStructureNameAsync(locationId)
-			structureNameTask.Wait()
-			If structureNameTask.Result.IsSuccess Then
+
+			Dim isStructureNameGotten = False
+			If _isStructureNameServiceAbailable Then
+				Try
+					structureNameTask.Wait()
+					isStructureNameGotten = structureNameTask.Result.IsSuccess
+				Catch exception As Exception
+					_isStructureNameServiceAbailable = Not WebServiceExceptionHelper.IsServiceUnabailableError(exception)
+					HQ.WriteLogEvent($"During call to structure name service an exception occured:\n {exception.ToString()}")
+				End Try
+			End If
+
+			If isStructureNameGotten Then
 				' Citadel or Engineering Complex
 				Dim eveStructure As EveStructure = structureNameTask.Result.ResultData
 				result.ContainerName = $"{eveStructure.StructureName} ({eveStructure.StructureTypeName})"
@@ -142,5 +155,7 @@ Namespace Classes
 
 			Return result
 		End Function
+
+		Private Shared _isStructureNameServiceAbailable As Boolean = True
 	End Class
 End Namespace

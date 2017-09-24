@@ -145,7 +145,7 @@
             Me.adtMails.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
             Me.adtMails.DragDropEnabled = False
             Me.adtMails.DragDropNodeCopyEnabled = False
-            Me.adtMails.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtMails.Location = New System.Drawing.Point(6, 36)
             Me.adtMails.MultiSelect = True
             Me.adtMails.Name = "adtMails"

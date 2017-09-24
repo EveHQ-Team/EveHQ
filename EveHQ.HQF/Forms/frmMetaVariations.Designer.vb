@@ -161,7 +161,7 @@
             Me.adtComparisons.DragDropNodeCopyEnabled = False
             Me.adtComparisons.ExpandWidth = 0
             Me.adtComparisons.KeyboardSearchEnabled = False
-            Me.adtComparisons.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtComparisons.Location = New System.Drawing.Point(3, 34)
             Me.adtComparisons.Name = "adtComparisons"
             Me.adtComparisons.NodesConnector = Me.NodeConnector1

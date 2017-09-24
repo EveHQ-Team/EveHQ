@@ -100,7 +100,7 @@ Namespace Forms
             '
             Me.Highlighter1.ContainerControl = Me
             Me.Highlighter1.FocusHighlightColor = DevComponents.DotNetBar.Validator.eHighlightColor.Green
-            Me.Highlighter1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             '
             'PanelEx1
             '

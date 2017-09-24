@@ -904,7 +904,7 @@ Namespace Forms
             Me.adtAccounts.Columns.Add(Me.colAccountAccessType)
             Me.adtAccounts.Columns.Add(Me.colAccountStatus)
             Me.adtAccounts.ExpandWidth = 0
-            Me.adtAccounts.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtAccounts.Location = New System.Drawing.Point(12, 20)
             Me.adtAccounts.Name = "adtAccounts"
             Me.adtAccounts.NodesConnector = Me.NodeConnector1
@@ -2982,7 +2982,7 @@ Namespace Forms
             Me._itemOverridesActiveGrid.Columns.Add(Me._itemOverridesActiveGridItemIdColumn)
             Me._itemOverridesActiveGrid.Columns.Add(Me._itemOverridesActiveGridOrderTypeColumn)
             Me._itemOverridesActiveGrid.Columns.Add(Me._itemOverridesActiveGridMetricColumn)
-            Me._itemOverridesActiveGrid.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me._itemOverridesActiveGrid.Location = New System.Drawing.Point(24, 220)
             Me._itemOverridesActiveGrid.Name = "_itemOverridesActiveGrid"
             Me._itemOverridesActiveGrid.NodesConnector = Me.NodeConnector2
@@ -3400,7 +3400,7 @@ Namespace Forms
             '
             Me.STT.DefaultFont = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
             Me.STT.DefaultTooltipSettings = SuperTooltipInfo1
-            Me.STT.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.STT.MinimumTooltipSize = New System.Drawing.Size(300, 24)
             Me.STT.PositionBelowControl = False
             '

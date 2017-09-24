@@ -86,7 +86,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevComponents.DotNetBar2, Version=11.4.0.4, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+    <Reference Include="DevComponents.DotNetBar2">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Ref\DotNetBar\DevComponents.DotNetBar2.dll</HintPath>
       <Private>True</Private>

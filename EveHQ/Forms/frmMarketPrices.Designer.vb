@@ -354,7 +354,7 @@ Namespace Forms
             Me._sellOrders.DragDropEnabled = False
             Me._sellOrders.DragDropNodeCopyEnabled = False
             Me._sellOrders.ExpandWidth = 0
-            Me._sellOrders.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me._sellOrders.Location = New System.Drawing.Point(4, 4)
             Me._sellOrders.Name = "_sellOrders"
             Me._sellOrders.NodesConnector = Me.NodeConnector1
@@ -457,7 +457,7 @@ Namespace Forms
             Me._buyOrders.DragDropEnabled = False
             Me._buyOrders.DragDropNodeCopyEnabled = False
             Me._buyOrders.ExpandWidth = 0
-            Me._buyOrders.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me._buyOrders.Location = New System.Drawing.Point(4, 4)
             Me._buyOrders.Name = "_buyOrders"
             Me._buyOrders.NodesConnector = Me.NodeConnector2
@@ -606,7 +606,7 @@ Namespace Forms
             Me.adtPrices.Columns.Add(Me.colCustomCustom)
             Me.adtPrices.ContextMenuStrip = Me.ctxPrices
             Me.adtPrices.ExpandWidth = 0
-            Me.adtPrices.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtPrices.Location = New System.Drawing.Point(4, 39)
             Me.adtPrices.MultiSelect = True
             Me.adtPrices.Name = "adtPrices"

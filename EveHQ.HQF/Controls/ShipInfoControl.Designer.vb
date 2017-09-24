@@ -1348,7 +1348,7 @@
             Me.panelShipInfo.Dock = System.Windows.Forms.DockStyle.Fill
             Me.panelShipInfo.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.ControlContainerItem1, Me.ControlContainerItem2, Me.ControlContainerItem3, Me.ControlContainerItem4, Me.ControlContainerItem5, Me.ControlContainerItem6, Me.ControlContainerItem7})
             Me.panelShipInfo.LayoutOrientation = DevComponents.DotNetBar.eOrientation.Vertical
-            Me.panelShipInfo.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.panelShipInfo.Location = New System.Drawing.Point(0, 0)
             Me.panelShipInfo.Name = "panelShipInfo"
             Me.panelShipInfo.ResizeItemsToFit = False

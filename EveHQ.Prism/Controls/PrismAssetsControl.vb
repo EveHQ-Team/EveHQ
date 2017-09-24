@@ -636,7 +636,6 @@ Namespace Controls
 									Dim locNode As New Node
 									CreateNodeCells(locNode)
 									Dim addLocation = True
-									Dim stationLocation As String
 									Const CorpHangarName = "n/a"
 									For Each testNode As Node In adtAssets.Nodes
 										If testNode.Tag.ToString() = assetItem.LocationId.ToInvariantString() Then
@@ -664,8 +663,6 @@ Namespace Controls
 											locNode.Cells(_assetColumn("AssetSystemSec")).Text = "Unknown"
 										End If
 										adtAssets.Nodes.Add(locNode)
-									Else
-										stationLocation = assetLocation.ContainerName
 									End If
 
 									Dim typeId As Integer = assetItem.TypeId
@@ -756,7 +753,7 @@ Namespace Controls
 									Dim newAssetList As New Classes.AssetItem
 									newAssetList.ItemID = CLng(newAsset.Tag)
 									newAssetList.CorpHangar = CorpHangarName
-									newAssetList.Station = stationLocation
+									newAssetList.Station = assetLocation.ContainerName
 									newAssetList.System = locNode.Text
 									newAssetList.TypeID = typeId
 									newAssetList.TypeName = itemName
@@ -817,7 +814,7 @@ Namespace Controls
 									' Check if this row has child nodes and repeat
 									If assetItem.Contents IsNot Nothing Then
 										Call PopulateAssetNode(
-											newAsset, assetItem, owner.Name, locNode.Text, owner, assetLocation.SolarSystem, stationLocation, CorpHangarName)
+											newAsset, assetItem, owner.Name, locNode.Text, owner, assetLocation.SolarSystem, assetLocation.ContainerName, CorpHangarName)
 									End If
 
 									' Update hangar price if applicable
@@ -2753,7 +2750,7 @@ Namespace Controls
 					sb.Append(aer.MetaLevel.ToString & sepChar)
 					sb.Append(ControlChars.Quote & aer.Location.ToString & ControlChars.Quote & sepChar)
 					sb.Append(ControlChars.Quote & aer.CorpHangar.ToString & ControlChars.Quote & sepChar)
-					sb.Append(ControlChars.Quote & aer.Station.ToString & ControlChars.Quote & sepChar)
+					sb.Append(ControlChars.Quote & aer.Station & ControlChars.Quote & sepChar)
 					sb.Append(aer.System.ToString & sepChar)
 					sb.Append(aer.Constellation.ToString & sepChar)
 					sb.Append(aer.Region.ToString & sepChar)

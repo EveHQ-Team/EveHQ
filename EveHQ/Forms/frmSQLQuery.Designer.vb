@@ -243,7 +243,7 @@
             Me.rbData.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
             Me.rbData.ContainerControlProcessDialogKey = True
             Me.rbData.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnExportData, Me.btnCopyData})
-            Me.rbData.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbData.Location = New System.Drawing.Point(383, 0)
             Me.rbData.Name = "rbData"
             Me.rbData.Size = New System.Drawing.Size(144, 100)
@@ -286,7 +286,7 @@
             Me.rbQuery.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
             Me.rbQuery.ContainerControlProcessDialogKey = True
             Me.rbQuery.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnExecute, Me.btnSave})
-            Me.rbQuery.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbQuery.Location = New System.Drawing.Point(228, 0)
             Me.rbQuery.Name = "rbQuery"
             Me.rbQuery.Size = New System.Drawing.Size(153, 100)
@@ -329,7 +329,7 @@
             Me.rbQueries.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
             Me.rbQueries.ContainerControlProcessDialogKey = True
             Me.rbQueries.Items.AddRange(New DevComponents.DotNetBar.BaseItem() {Me.btnNew, Me.btnRename, Me.btnDelete})
-            Me.rbQueries.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.rbQueries.Location = New System.Drawing.Point(0, 0)
             Me.rbQueries.Name = "rbQueries"
             Me.rbQueries.Size = New System.Drawing.Size(226, 100)

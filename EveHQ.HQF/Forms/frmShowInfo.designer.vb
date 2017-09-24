@@ -233,7 +233,7 @@ Namespace Forms
             Me.adtAudit.DropAsChildOffset = 0
             Me.adtAudit.ExpandWidth = 0
             Me.adtAudit.GridRowLines = True
-            Me.adtAudit.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtAudit.Location = New System.Drawing.Point(1, 1)
             Me.adtAudit.Name = "adtAudit"
             Me.adtAudit.NodesConnector = Me.NodeConnector2
@@ -304,7 +304,7 @@ Namespace Forms
             Me.adtAffects.DropAsChildOffset = 0
             Me.adtAffects.ExpandWidth = 0
             Me.adtAffects.GridRowLines = True
-            Me.adtAffects.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtAffects.Location = New System.Drawing.Point(1, 1)
             Me.adtAffects.Name = "adtAffects"
             Me.adtAffects.NodesConnector = Me.NodeConnector3
@@ -457,7 +457,7 @@ Namespace Forms
             Me.tvwReqs.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
             Me.tvwReqs.Dock = System.Windows.Forms.DockStyle.Fill
             Me.tvwReqs.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
-            Me.tvwReqs.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.tvwReqs.Location = New System.Drawing.Point(1, 1)
             Me.tvwReqs.Name = "tvwReqs"
             Me.tvwReqs.NodesConnector = Me.NodeConnector1
@@ -511,7 +511,7 @@ Namespace Forms
             '
             'SuperTooltip1
             '
-            Me.SuperTooltip1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.SuperTooltip1.PositionBelowControl = False
             '
             'pnlInfo

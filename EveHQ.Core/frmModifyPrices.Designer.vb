@@ -112,7 +112,7 @@ Partial Class FrmModifyPrices
         Me.adtPrices.DragDropNodeCopyEnabled = False
         Me.adtPrices.ExpandWidth = 0
         Me.adtPrices.GridRowLines = True
-        Me.adtPrices.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+        
         Me.adtPrices.Location = New System.Drawing.Point(3, 34)
         Me.adtPrices.Name = "adtPrices"
         Me.adtPrices.NodesConnector = Me.NodeConnector1

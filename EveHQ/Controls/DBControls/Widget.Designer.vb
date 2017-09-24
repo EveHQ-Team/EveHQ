@@ -89,7 +89,7 @@
             '
             'SuperTooltip1
             '
-            Me.SuperTooltip1.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             '
             'ctxHeader
             '

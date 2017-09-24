@@ -44,7 +44,7 @@
             Me.adtSkills.DragDropEnabled = False
             Me.adtSkills.DragDropNodeCopyEnabled = False
             Me.adtSkills.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
-            Me.adtSkills.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtSkills.Location = New System.Drawing.Point(0, 0)
             Me.adtSkills.Name = "adtSkills"
             Me.adtSkills.NodesConnector = Me.NodeConnector1
@@ -69,7 +69,7 @@
             'STTSkill
             '
             Me.STTSkill.HoverDelayMultiplier = 1
-            Me.STTSkill.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.STTSkill.PositionBelowControl = False
             '
             'IBSkillTree

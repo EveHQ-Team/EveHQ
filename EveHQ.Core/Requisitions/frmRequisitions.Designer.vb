@@ -149,7 +149,7 @@
             Me.adtOrders.Columns.Add(Me.colSurplusCost)
             Me.adtOrders.Dock = System.Windows.Forms.DockStyle.Fill
             Me.adtOrders.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
-            Me.adtOrders.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtOrders.Location = New System.Drawing.Point(0, 68)
             Me.adtOrders.Name = "adtOrders"
             Me.adtOrders.NodesConnector = Me.NodeConnector2
@@ -634,7 +634,7 @@
             Me.adtReqs.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
             Me.adtReqs.Dock = System.Windows.Forms.DockStyle.Fill
             Me.adtReqs.ExpandButtonType = DevComponents.AdvTree.eExpandButtonType.Triangle
-            Me.adtReqs.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtReqs.Location = New System.Drawing.Point(0, 217)
             Me.adtReqs.MultiSelect = True
             Me.adtReqs.Name = "adtReqs"

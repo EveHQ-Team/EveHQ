@@ -264,7 +264,7 @@
             Me.cboItems.BackgroundStyle.CornerType = DevComponents.DotNetBar.eCornerType.Square
             Me.cboItems.ButtonDropDown.Visible = True
             Me.cboItems.Enabled = False
-            Me.cboItems.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.cboItems.Location = New System.Drawing.Point(118, 405)
             Me.cboItems.Name = "cboItems"
             Me.cboItems.Size = New System.Drawing.Size(303, 21)

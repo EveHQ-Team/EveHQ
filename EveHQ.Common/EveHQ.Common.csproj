@@ -46,7 +46,7 @@
     <AssemblyOriginatorKeyFile>..\EveHQ.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevComponents.DotNetBar2, Version=11.5.0.5, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.DotNetBar2" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
@@ -108,6 +108,7 @@
     <Compile Include="WebRequests\IHttpRequestProvider.cs" />
     <Compile Include="WebRequests\HttpRequestProvider.cs" />
     <Compile Include="WebRequests\WebProxyDetails.cs" />
+    <Compile Include="WebRequests\WebServiceExceptionHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\EveHQ.snk">

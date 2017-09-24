@@ -2101,7 +2101,7 @@ Namespace Controls
             Me.adtSlots.ExpandWidth = 8
             Me.adtSlots.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
             Me.adtSlots.Indent = 2
-            Me.adtSlots.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtSlots.Location = New System.Drawing.Point(0, 38)
             Me.adtSlots.MultiSelect = True
             Me.adtSlots.Name = "adtSlots"
@@ -2286,7 +2286,7 @@ Namespace Controls
             '
             Me.SlotTip.DefaultFont = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
             Me.SlotTip.DefaultTooltipSettings = SuperTooltipInfo17
-            Me.SlotTip.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.SlotTip.PositionBelowControl = False
             '
             'ShipSlotControl

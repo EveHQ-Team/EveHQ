@@ -199,7 +199,7 @@ Namespace Controls
             Me.adtResources.Columns.Add(Me.colTotalPrice)
             Me.adtResources.Dock = System.Windows.Forms.DockStyle.Fill
             Me.adtResources.DragDropEnabled = False
-            Me.adtResources.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtResources.Location = New System.Drawing.Point(1, 25)
             Me.adtResources.Name = "adtResources"
             Me.adtResources.NodesConnector = Me.NodeConnector1
@@ -375,7 +375,7 @@ Namespace Controls
             Me.adtInventionResources.Columns.Add(Me.colIRValue)
             Me.adtInventionResources.Dock = System.Windows.Forms.DockStyle.Fill
             Me.adtInventionResources.ExpandWidth = 0
-            Me.adtInventionResources.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtInventionResources.Location = New System.Drawing.Point(1, 1)
             Me.adtInventionResources.Name = "adtInventionResources"
             Me.adtInventionResources.NodesConnector = Me.NodeConnector2
@@ -474,7 +474,7 @@ Namespace Controls
             Me.adtProductionList.Columns.Add(Me.colPLValue)
             Me.adtProductionList.Dock = System.Windows.Forms.DockStyle.Fill
             Me.adtProductionList.ExpandWidth = 0
-            Me.adtProductionList.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtProductionList.Location = New System.Drawing.Point(1, 1)
             Me.adtProductionList.Name = "adtProductionList"
             Me.adtProductionList.NodesConnector = Me.NodeConnector5
@@ -574,7 +574,7 @@ Namespace Controls
             Me.adtBatchResources.Columns.Add(Me.colBatchVolume)
             Me.adtBatchResources.Dock = System.Windows.Forms.DockStyle.Fill
             Me.adtBatchResources.ExpandWidth = 0
-            Me.adtBatchResources.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtBatchResources.Location = New System.Drawing.Point(1, 25)
             Me.adtBatchResources.Name = "adtBatchResources"
             Me.adtBatchResources.NodesConnector = Me.NodeConnector4
@@ -733,7 +733,7 @@ Namespace Controls
             Me.adtOwnedResources.Columns.Add(Me.colORSurplus)
             Me.adtOwnedResources.Dock = System.Windows.Forms.DockStyle.Fill
             Me.adtOwnedResources.ExpandWidth = 20
-            Me.adtOwnedResources.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.adtOwnedResources.Location = New System.Drawing.Point(1, 25)
             Me.adtOwnedResources.Name = "adtOwnedResources"
             Me.adtOwnedResources.NodesConnector = Me.NodeConnector3
@@ -914,7 +914,7 @@ Namespace Controls
             Me.STT.DefaultFont = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
             Me.STT.DefaultTooltipSettings = New DevComponents.DotNetBar.SuperTooltipInfo("", "", "", Nothing, Nothing, DevComponents.DotNetBar.eTooltipColor.Gray)
             Me.STT.IgnoreFormActiveState = True
-            Me.STT.LicenseKey = "F962CEC7-CD8F-4911-A9E9-CAB39962FC1F"
+            
             Me.STT.MinimumTooltipSize = New System.Drawing.Size(250, 24)
             Me.STT.PositionBelowControl = False
             '
