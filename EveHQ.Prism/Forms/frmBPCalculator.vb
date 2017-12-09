@@ -1768,6 +1768,14 @@ Namespace Forms
             End If
 
         End Sub
+
+        '
+        ' DEBUG !!!!
+        '
+        Private Sub btnEditStructurePreference_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnEditStructurePreference.Click
+            Dim formStructurePreference As EveHQ.Plugins.Prism.UpwellStructures.frmUpwellStructure = New EveHQ.Plugins.Prism.UpwellStructures.frmUpwellStructure()
+            formStructurePreference.Show()
+        End Sub
     End Class
 
     Public Enum BPCalcStartMode
